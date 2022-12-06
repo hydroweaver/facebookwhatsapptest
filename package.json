@@ -2,9 +2,9 @@
   "name": "facebookwhatsappmessaging",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index_hi_qeenu_template.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index_hi_qeenu_template.js"
   },
   "repository": {
     "type": "git",

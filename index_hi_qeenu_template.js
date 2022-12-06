@@ -7,6 +7,10 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+app.get('/', (req, res)=>{
+  res.send('Hello World!')
+})
+
 app
   .get("/webhook", (req, res) => {
     console.log(req.url);
